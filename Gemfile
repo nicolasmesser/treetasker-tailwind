@@ -79,3 +79,5 @@ group :test do
 
   gem 'erb_lint'
 end
+
+gem "tailwindcss-rails", "~> 2.0"
