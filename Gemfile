@@ -50,6 +50,7 @@ gem 'devise'
 gem 'font-awesome-sass', '~> 6.1'
 gem 'sassc-rails'
 gem 'simple_form', github: 'heartcombo/simple_form'
+gem 'tailwindcss-rails', '~> 2.0'
 
 gem 'cloudinary'
 
@@ -79,5 +80,3 @@ group :test do
 
   gem 'erb_lint'
 end
-
-gem "tailwindcss-rails", "~> 2.0"
