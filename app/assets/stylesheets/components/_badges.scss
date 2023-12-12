@@ -24,13 +24,11 @@
   color: #ffd700;
 }
 
-
 .user-profile {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-
 
 .fa-solid.fa-seedling {
   color: grey;
@@ -41,12 +39,6 @@
     color: nth(($teal-100, $teal-200, $teal-300, $teal-400, $teal-500, $teal-600, $teal-700, $teal-800), $i);
   }
 }
-
-
-// .fa-solid.fa-seedling.achieved {
-//   color: rgb(60, 220, 32);
-// }
-
 
 .main-container {
   display: flex;
@@ -60,7 +52,7 @@
 
 .content-container {
   display: flex;
-  justify-content: space-between; /* Aligns children to each side */
-  align-items: flex-start; /* Aligns children to the top */
-  width: 100%; /* Ensure the container spans the full width */
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
