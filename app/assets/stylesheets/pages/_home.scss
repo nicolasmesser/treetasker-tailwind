@@ -7,19 +7,19 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: $teal-050;
+  background-color: --teal-050;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
-  font-family: $treetasker-family;
+  font-family: --treetasker-family;
 }
 
 body h1 {
-  color: $teal-100;
+  color: --teal-100;
 }
 
 body p, body span {
-  color: $blue-grey-900;
+  color: --blue-grey-900;
 }
 
 .home-nav p {
@@ -41,22 +41,22 @@ body p, body span {
 }
 
 .home-nav li.priority-do:hover a, .home-nav li.priority-do:hover p {
-  color: $teal-300 !important;
+  color: --teal-300 !important;
   font-weight: bold;
 }
 
 .home-nav li.priority-decide:hover a, .home-nav li.priority-decide:hover p {
-  color: $blue-grey-300 !important;
+  color: --blue-grey-300 !important;
   font-weight: bold;
 }
 
 .home-nav li.priority-delegate:hover a, .home-nav li.priority-delegate:hover p {
-  color: $red-300 !important;
+  color: --red-300 !important;
   font-weight: bold;
 }
 
 .home-nav li.priority-depository:hover a, .home-nav li.priority-depository:hover p {
-  color: $yellow-300 !important;
+  color: --yellow-300 !important;
   font-weight: bold;
 }
 
@@ -70,7 +70,7 @@ body p, body span {
 }
 
 .home-nav, .home-tasks, .home-stats, .home-tasks .col {
-  border: 2px solid $blue-grey-900;
+  border: 2px solid --blue-grey-900;
   border-radius: 10px
 }
 
@@ -82,7 +82,7 @@ body p, body span {
 
 .home-tasks a, a.tt-link {
   text-decoration: none;
-  color: $blue-grey-900;
+  color: --blue-grey-900;
 }
 
 .home-tasks a:hover, a.tt-link:hover {
@@ -90,17 +90,17 @@ body p, body span {
 }
 
 .home-tasks .priority-do {
-  background-color: $teal-300;
+  background-color: --teal-300;
 }
 
 .home-tasks .priority-decide {
-  background-color: $blue-grey-300;
+  background-color: --blue-grey-300;
 }
 
 .home-tasks .priority-delegate {
-  background-color: $red-300;
+  background-color: --red-300;
 }
 
 .home-tasks .priority-depository {
-  background-color: $yellow-300;
+  background-color: --yellow-300;
 }

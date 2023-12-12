@@ -7,11 +7,11 @@
 }
 
 .card-header {
-  background-color: $blue-grey-100;
+  background-color: --blue-grey-100;
 }
 
 .card-body {
-  background-color: $blue-grey-050;
+  background-color: --blue-grey-050;
 }
 
 .card-header p {
@@ -34,13 +34,13 @@ font-style: italic;
 }
 
 a.edit {
-  color: $teal-500;
+  color: --teal-500;
 }
 
 a.complete {
-  color: $blue-500;
+  color: --blue-500;
 }
 
 a.delete {
-  color: $red-900;
+  color: --red-900;
 }

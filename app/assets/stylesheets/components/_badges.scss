@@ -21,7 +21,7 @@
 
 .fa-star {
   font-size: 25px;
-  color: #ffd700;
+  color: --yellow-500;
 }
 
 .user-profile {
@@ -36,7 +36,7 @@
 
 @for $i from 1 through 8 {
   .fa-seedling.level-#{$i}.achieved {
-    color: nth(($teal-100, $teal-200, $teal-300, $teal-400, $teal-500, $teal-600, $teal-700, $teal-800), $i);
+    color: nth((--teal-100, --teal-200, --teal-300, --teal-400, --teal-500, --teal-600, --teal-700, --teal-800), $i);
   }
 }
 
